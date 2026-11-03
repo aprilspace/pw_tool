@@ -32,5 +32,3 @@
 
 
 Компилится под Windows с помощью https://github.com/skeeto/w64devkit
-
-C:\Apps\w64devkit\bin\g++.exe -Os -s -D_UNICODE -DUNICODE main.cpp icon.o -o pw_tool.exe -mwindows -nostartfiles -Wl,-e,tiny_entry,--gc-sections -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-asynchronous-unwind-tables -fno-stack-protector -fno-ident -fno-tree-loop-distribute-patterns
